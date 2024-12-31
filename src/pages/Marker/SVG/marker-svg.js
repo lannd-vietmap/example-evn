@@ -56,6 +56,17 @@ function MarkerSVG() {
                   ],
                 },
               });
+
+              // add on single-point layer click listener
+              map.current.on("click", "point-layer", (e) => {
+                const coordinates = e.features[0].geometry.coordinates.slice();
+                const description = "Your description here";
+                console.log("You're clicked on the point with coordinates: ", coordinates);
+                new vietmapGl.Popup()
+                  .setLngLat(coordinates)
+                  .setHTML(description)
+                  .addTo(map.current);
+              });
     
               map.current.addLayer({
                 id: "point-layer",
