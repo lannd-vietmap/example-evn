@@ -1,3 +1,40 @@
+# VietMapSDK Event:
+
+## MapEventType
+| Event Type | Description |
+| --- | --- |
+| click | Fired when a pointing device (usually a mouse) is pressed and released contains a visible portion of the specified layer. |
+| dblclick | Fired when a pointing device (usually a mouse) is pressed and released twice contains a visible portion of the specified layer. |
+| mousedown | Fired when a pointing device (usually a mouse) is pressed while inside a visible portion of the specified layer. |
+| mouseup | Fired when a pointing device (usually a mouse) is released while inside a visible portion of the specified layer. |
+| mousemove | Fired when a pointing device (usually a mouse) is moved while the cursor is inside a visible portion of the specified layer. As you move the cursor across the layer, the event will fire every time the cursor changes position within that layer. |
+| mouseenter | Fired when a pointing device (usually a mouse) enters a visible portion of a specified layer from outside that layer or outside the map canvas. |
+| mouseleave | Fired when a pointing device (usually a mouse) leaves a visible portion of a specified layer, or leaves the map canvas. |
+| mouseover | Fired when a pointing device (usually a mouse) is moved inside a visible portion of the specified layer. |
+| mouseout | Fired when a point device (usually a mouse) leaves the visible portion of the specified layer. |
+| contextmenu | Fired when the right button of the mouse is clicked or the context menu key is pressed within visible portion of the specified layer. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br>
+</br>
+</br>
+</br>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
