@@ -7,7 +7,7 @@ function MapControl() {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const vietmap = { lng: 106.675477, lat: 10.758898 };
-  const VIETMAP_API_KEY = "911f5b7e0a414ed6ab7e4a711c661fcc5a46fc9d1690e042";
+  const VIETMAP_API_KEY = "YOUR_API_KEY_HERE";
   const zoom = 14;
 
   useEffect(() => {
