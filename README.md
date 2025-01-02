@@ -56,9 +56,7 @@
 | `dataabort`      | Fired when a request for one of the map's sources' tiles or data is aborted                    |
 | `sourcedataabort`| Fired when a request for one of the map's sources' data is aborted                    |
 
-
-
-
+More documentation about [PopUp](./POPUP.md)
 
 
 
